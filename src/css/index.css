@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* FOR THE SIGN UP PAGE... */
+.backpage{
+  width: 100%;
+}
+.userpage{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 2rem 0;
+}
+.logobox{
+  height: 2.5rem;
+}
+.facebooksignBtn{
+  text-decoration: none;
+  margin: 1.5rem 0 0 0;
+  height: 3rem;
+  width: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  background-color:	#4267B2;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform .2s; /* Animation */
+}
+.googlesignBtn{
+  cursor: pointer;
+  text-decoration: none;
+  border: solid 2px;
+  margin: 1rem 0 0 0;
+  height: 3rem;
+  width: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  font-weight: 500;
+  transition: transform .1s; /* Animation */
+}
+
+.facebooksignBtn:hover, .googlesignBtn:hover{
+  transform: scale(1.035);
+}
+
+
+  /* for the sign up input...*/
+
+.credform{
+  border: none 1px blue;
+  width: 28rem;
+  margin: 0 0 0 0;
+}      
+.divinput{
+  display: flex;
+  flex-direction: column;
+  margin: 1.6rem 0 0 0;
+}
+.divinput label{
+  font-weight: 500;
+}
+.divinput input{
+  height: 2rem;
+  margin: 0.4rem 0 0.1rem 0;
+  padding: 0.5rem 0.9rem;
+  border-radius: 4px;
+  border: solid 1.6px rgb(169, 169, 169);
+  outline-color: #1DB954;
+}
+.divinput input::placeholder{
+  font-size: 125%;
+}
+.divinput a{
+  color: #1DB954;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 90%;
+}
+
+.radioInput{
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+}
+.radioInput input[type='radio']{
+  width: 1.3rem;
+  accent-color: #1DB954;
+  border-color: #ffffff;
+}
+
+.radioInput label{
+  font-weight: 400;
+  margin-top: 0.2rem;
+  font-size: 90%;
+}
+.checkboxInput{
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.checkboxInput input[type='checkbox']{
+  accent-color: #1DB954;
+}
+.checkboxInput label{
+  font-size: 90%;
+}
+
+/* for the login input... */
+.appleloginBtn{
+  cursor: pointer;
+  text-decoration: none;
+  border: solid 2px;
+  margin: 1rem 0 0 0;
+  height: 3rem;
+  width: 24rem;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  font-weight: 500;
+  transition: transform .1s; /* Animation */
+}
+.numberloginBtn{
+  cursor: pointer;
+  text-decoration: none;
+  border: solid 2px;
+  margin: 1rem 0 0 0;
+  height: 3rem;
+  width: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  font-weight: 500;
+  transition: transform .1s; /* Animation */
+}
+.appleloginBtn:hover, .numberloginBtn:hover{
+  transform: scale(1.035);
+}
+.optionsignup{
+  border: solid 1px black;
+  margin: 1rem 0 0 0;
+  height: 3rem;
+  width: 28rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+.optionsignup:hover{
+  border: solid 2px black;
+}
