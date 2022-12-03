@@ -29,23 +29,23 @@
                 <div class="credform">
                     <div class="divinput">
                         <label>What's your email?</label>
-                        <input type="text" placeholder="Enter your email.">
+                        <input id="newUserEmail" type="text" placeholder="Enter your email.">
                         <a>Use phone number instead.</a>
                     </div>
 
                     <div class="divinput">
                         <label>Confirm your email</label>
-                        <input type="text" placeholder="Enter your email again.">
+                        <input id="confirmNewUserEmail" type="text" placeholder="Enter your email again.">
                     </div>
 
                     <div class="divinput">
                         <label>Create a password</label>
-                        <input type="password" placeholder="Create a password.">  
+                        <input id="newUserPass" type="password" placeholder="Create a password.">  
                     </div>
 
                     <div class="divinput">
                         <label>What should we call you?</label>
-                        <input type="text" placeholder="Enter a profile name.">
+                        <input id="newUserProfileName" type="text" placeholder="Enter a profile name.">
                         <span style="font-size: 88%;"> This appears on your profile.</span>
                     </div>
 
@@ -53,30 +53,32 @@
                         <label>What's your date of birth?</label>
                         <div style="display: flex; flex-direction: row; margin: 0.5rem 0 0 0;">
                             <div style="display: flex; flex-direction: column; margin-right: 1rem;">
-                                <label for="">Day</label>
-                                <input style="width: 3rem;" type="text" placeholder="DD">
+                                <label for="dobDay">Day</label>
+                                <input id="dobDay" style="width: 3rem;" type="text" placeholder="DD">
                             </div>
                             <div style="display: flex; flex-direction: column; margin-right: 1rem;">
-                                <label for="">Month</label>
-                                <select name="birthmonth" style="margin-top: 0.5rem; height: 3.1rem; padding: 0.5rem 0.9rem; border: solid 1.6px rgb(169, 169, 169); border-radius: 4px;">
-                                    <option style="font-size: 110%; color: grey;">Month</option>
-                                    <option style="font-size: 110%; color: grey;">January</option>
-                                    <option style="font-size: 110%; color: grey;">February</option>
-                                    <option style="font-size: 110%; color: grey;">March</option>
-                                    <option style="font-size: 110%; color: grey;">April</option>
-                                    <option style="font-size: 110%; color: grey;">May</option>
-                                    <option style="font-size: 110%; color: grey;">June</option>
-                                    <option style="font-size: 110%; color: grey;">July</option>
-                                    <option style="font-size: 110%; color: grey;">August</option>
-                                    <option style="font-size: 110%; color: grey;">September</option>
-                                    <option style="font-size: 110%; color: grey;">October</option>
-                                    <option style="font-size: 110%; color: grey;">November</option>
-                                    <option style="font-size: 110%; color: grey;">December</option>
+                                <label for="dobMonth">Month</label>
+                                <select id="dobMonth" name="birthmonth" style="margin-top: 0.5rem; height: 3.1rem; padding: 0.5rem 0.9rem; border: solid 1.6px rgb(169, 169, 169); border-radius: 4px;">
+                                    <option disabled selected style="font-size: 110%; color: grey;">Month</option>
+                                    <option value="January" style="font-size: 110%; color: grey;">January</option>
+                                    <option value="February" style="font-size: 110%; color: grey;">February</option>
+                                    <option value="March" style="font-size: 110%; color: grey;">March</option>
+                                    <option value="April" style="font-size: 110%; color: grey;">April</option>
+                                    <option value="May" style="font-size: 110%; color: grey;">May</option>
+                                    <option value="June" style="font-size: 110%; color: grey;">June</option>
+                                    <option value="July" style="font-size: 110%; color: grey;">July</option>
+                                    <option value="August" style="font-size: 110%; color: grey;">August</option>
+                                    <option value="September" style="font-size: 110%; color: grey;">September</option>
+                                    <option value="October" style="font-size: 110%; color: grey;">October</option>
+                                    <option value="November" style="font-size: 110%; color: grey;">November</option>
+                                    <option value="December" style="font-size: 110%; color: grey;">December</option>
                                 </select>
+
+                                <input type="text" id="show"> 
                             </div>
                             <div style="display: flex; flex-direction: column;">
-                                <label for="">Year</label>
-                                <input style="width: 4rem;" type="text" placeholder="YYYY">
+                                <label for="dobYear">Year</label>
+                                <input id="dobYear" style="width: 4rem;" type="text" placeholder="YYYY">
                             </div>
                         </div>
                     </div>
@@ -85,7 +87,7 @@
                         <label>What's your gender?</label>
                         <div style="display: flex; flex-direction: row;">
                             <div class="radioInput">
-                                <input type="radio" name="gender" value="Male" id="male">
+                                <input id type="radio" name="gender" value="Male" id="male">
                                 <label for="male">Male</label>
                             </div>
                            
@@ -130,7 +132,7 @@
                     </div>
 
                     <div style="margin: 2rem 0 2rem 0; display: flex; justify-content: center;">
-                        <button style="height: 4rem; width: 10rem; border: none; border-radius: 2rem; background-color: #1DB954; font-size: 120%; font-weight: 700; cursor: pointer;">Sign up</button>
+                        <button id="submitsignupBtn" style="height: 4rem; width: 10rem; border: none; border-radius: 2rem; background-color: #1DB954; font-size: 120%; font-weight: 700; cursor: pointer;">Sign up</button>
                     </div>
 
                     <div style="display: flex; justify-content: center; margin-bottom: 5rem;">
@@ -139,5 +141,6 @@
                 </div>
             </div>
         </div>
+        <script src="./signup.html"></script>
     </body>
 </html>

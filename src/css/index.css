@@ -171,3 +171,64 @@ body{
 .optionsignup:hover{
   border: solid 2px black;
 }
+
+/* for the index page/landing page.. */
+.outerlanding{
+  border: none 1px;
+  width: 100%;
+}
+.landing_sec1{
+  border: solid 1px;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  align-items: center;
+}
+.sec1_menu{
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin: 0 0 0 35%;
+}
+.sec1_menu a{
+  cursor: pointer;
+
+}
+.sec1_menu a:hover{
+  color: #1DB954;
+}
+.sec1_menu a span{
+  font-size: 100%;
+  font-weight: 500;
+  margin: 0 0 0 2rem;
+}
+.landing_sec2{
+  background-color: rgb(38, 0, 151);
+  height: 29.5rem;
+  display: flex;
+  flex-direction: row;
+
+}
+.landing_sec2 .landing_abtn a{
+  cursor: pointer;
+  transition: transform .1s; /* Animation */
+}
+.landing_sec2 .landing_abtn a:hover{
+  transform: scale(1.035);
+}
+.landing_sec3{
+  background-color: black;
+  height: 22rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landing_sec3 .landing_abtn a{
+  transition: transform .1s; /* Animation */
+}
+.landing_sec3 .landing_abtn a:hover{
+  transform: scale(1.035);
+}
