@@ -33,12 +33,12 @@
                 <div class="credform">
                     <div class="divinput">
                         <label>Email address or username</label>
-                        <input type="text" placeholder="Email address or username">
+                        <input id="loginemail" type="text" placeholder="Email address or username">
                     </div>
 
                     <div class="divinput">
                         <label>Password</label>
-                        <input type="password" placeholder="Password">  
+                        <input id="loginpass" type="password" placeholder="Password">  
                     </div>
 
                     <div style="margin: 0.5rem 0 0 0; font-size: 95%; font-weight: 500;">
@@ -52,7 +52,7 @@
                         </div>
 
                         <div>
-                            <button style="height: 3rem; width: 8rem; border: none; border-radius: 2rem; background-color: #1DB954; font-size: 100%; font-weight: 500; cursor: pointer;">LOG IN</button>
+                            <button id="userloginbtn" style="height: 3rem; width: 8rem; border: none; border-radius: 2rem; background-color: #1DB954; font-size: 100%; font-weight: 500; cursor: pointer;">LOG IN</button>
                         </div>
                     </div>
 
@@ -68,5 +68,9 @@
                 </a>
             </div>    
         </div>
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+        <script src="../src/js/firebaseConfig.js"></script>
+        <script src="../src/js/userLogin.js"></script>
     </body>
 </html>

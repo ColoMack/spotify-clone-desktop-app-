@@ -31,6 +31,7 @@ document.getElementById("submitsignupBtn").onclick = function(){
             signupTimestamp: signupDate
         }).then(() => {
 
+            window.location.reload;
             window.location.href = "homepage.html";
 
         }).catch(() => {

@@ -194,7 +194,8 @@ body{
 }
 .sec1_menu a{
   cursor: pointer;
-
+  color: white;
+  text-decoration: none;
 }
 .sec1_menu a:hover{
   color: #1DB954;
@@ -231,4 +232,31 @@ body{
 }
 .landing_sec3 .landing_abtn a:hover{
   transform: scale(1.035);
+}
+.landing_sec4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 34rem;
+  gap: 3rem;
+}
+
+.landing_sec5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(229, 229, 229);
+  height: 65rem;
+}
+.landing_sec5 .plan1, .plan2, .plan3, .plan4 {
+  border: none 1px;
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 1px 7px 2px rgb(180, 180, 180);
 }
