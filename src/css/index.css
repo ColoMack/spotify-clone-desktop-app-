@@ -260,3 +260,11 @@ body{
   border-radius: 8px;
   box-shadow: 1px 1px 7px 2px rgb(180, 180, 180);
 }
+
+.getstartedbtn{
+  transition: transform .1s; /* Animation */
+}
+.getstartedbtn:hover{
+  cursor: pointer;
+  transform: scale(1.035);
+}
