@@ -315,3 +315,16 @@ body{
 .footer_socials a :hover{
   transform: scale(1.1);
 }
+.footer_bottom{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 8rem 0 0 1.5rem;
+}
+.footer_bottom a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer_bottom a div span:hover{
+  color:#1DB954;
+}
