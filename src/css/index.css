@@ -250,7 +250,7 @@ body{
   background-color: rgb(229, 229, 229);
   height: 65rem;
 }
-.landing_sec5 .plan1, .plan2, .plan3, .plan4 {
+.landing_sec5 .plan1, .plan2, .plan3, .plan4, .spec_disc {
   border: none 1px;
   width: 16rem;
   display: flex;
@@ -267,4 +267,51 @@ body{
 .getstartedbtn:hover{
   cursor: pointer;
   transform: scale(1.035);
+}
+
+.landing_sec6{
+  background-color: black;
+  height: 32.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 2rem 0 12rem;
+}
+.footer_top{
+  display: flex;
+  flex-direction: row;
+}
+.footer_bottom{
+  display: flex;
+  flex-direction: row;
+}
+.footer_links{
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  margin: 1rem 0 0 4rem;
+}
+.footer_links div a{
+  cursor: pointer;
+  font-size: 105%;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+.footer_links div a:hover{
+  color:#1DB954;
+}
+.footer_socials{
+  margin: 1rem 0 0 15rem;
+  height: 3rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.footer_socials a{
+  cursor: pointer;
+  transition: transform .1s;
+}
+.footer_socials a :hover{
+  transform: scale(1.1);
 }
