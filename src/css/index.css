@@ -328,3 +328,89 @@ body{
 .footer_bottom a div span:hover{
   color:#1DB954;
 }
+
+/* For the homepage..*/
+.backpage_2{
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+  background-color: rgb(200, 15, 15);
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+
+}
+.backpage_2 .toppage{
+  height: 88%;
+  display: flex;
+  flex-direction: row;
+
+}
+.toppage .sidenavbar{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+
+}
+.music-info{
+  display:flex; 
+  flex-direction:row; 
+  margin:0rem 1rem 0rem 1rem; 
+  align-items:center;
+  opacity: 0;
+}
+.controlbox.play .music-info{
+  opacity: 1;
+}
+/*the a buttons (audio buttons) inside the sidenav bar..*/
+.sidenavbar .nav1 a, .nav2 a, .nav3 a{
+  font-size: 85%;
+  font-weight: 700;
+  color: rgb(171, 171, 171);
+  transition: 0.3s;
+}
+/* Classlist for the play button and the pause button...*/
+.playbutton{
+  content: url(../images/playicon_blackfill.svg);
+}
+.pausebutton{
+  content: url(../images/pauseIcon-blackfill.svg);
+}
+
+.sidenavbar .nav1 a:hover, .nav2 a:hover, .nav3 a:hover{
+  cursor: pointer;
+  color: white; 
+}
+/*for the content box..right of the sidenav bar...*/
+.toppage .contentpage{
+  background-color:rgb(24, 24, 24);
+  height: 100%;
+  width: 80%;
+}
+/*for the music player box..bottom of the page..*/
+.backpage_2 .controlbox{
+  background-color: rgb(24, 24, 24);
+  height: 12%;
+  box-shadow: 0px 2px 2px 2px rgb(79, 79, 79);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.progresscontainer{
+ width: 32rem;
+ height: 4px;
+ border-radius: 5px;
+ background-color: rgba(110, 110, 110, 0.678);
+}
+.progress{
+  height: 100%;
+  background-color: #fff;
+  width: 0;
+  border-radius: 5px;
+  transition: width 0.1s linear;
+}
