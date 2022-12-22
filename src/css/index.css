@@ -441,3 +441,13 @@ body{
   color: white;
   cursor: pointer;
 }
+
+/* For the searchbar in search page..*/
+.searchbar_cont{
+  border: solid 1px white;
+  height: 2.5rem;
+  width: 23rem;
+  margin: 0 0 0 1rem;
+  background-color: white;
+  border-radius: 2rem;
+}
