@@ -444,10 +444,22 @@ body{
 
 /* For the searchbar in search page..*/
 .searchbar_cont{
-  border: solid 1px white;
+  border: solid 0px white;
   height: 2.5rem;
   width: 23rem;
   margin: 0 0 0 1rem;
   background-color: white;
   border-radius: 2rem;
 }
+
+/* For the top options in library page..*/
+.library_options{
+  margin-left: 2.5rem;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
